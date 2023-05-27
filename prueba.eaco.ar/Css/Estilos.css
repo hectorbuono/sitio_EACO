@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+       
+}
+
+ html{
+    
+    scroll-behavior: smooth;
+} 
+
+/* body {
+    background: #fff;
+    font-family: Copperlight;
+    font-size: 22px;
+    color: rgb(221,220,175);
+    margin: 0;
+    padding: 0;
+  } */
+
+.contenedor{
+  width:100%;
+  height:110px;
+  background-color: black;
+  position: fixed;
+  z-index: 10; 
+ 
+  
+}
+
+
+
+
+
+
+.logo{
+  content: url(../Img/Logo_transparente.png);
+  width:300px;
+  height:100px;
+  float:left;
+  }
+
+/* ESTILOS DE MENÚ */
+
+
+#menu_gral {
+    font-family: Copperlight;
+    width: 60%;
+    margin: 2rem auto;
+    float:right;
+    
+}
+#menu_gral ul {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+}
+#menu_gral > ul li {
+    display: inline-block;
+    width: 15%;
+    position: relative;
+   
+    /*transition: 2s;*/
+}
+#menu_gral li a {
+    display: block;
+   text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    color: rgb(221,220,175);
+     
+}
+#menu_gral li:hover a{ 
+        color: #DDDCAF;
+        /*background: rgb(230,133,0);*/
+        transition: all 0.5s;
+        
+        /*border-top: 2px solid;
+        border-color: black;
+*/    
+}
+/*#menu_gral li a:focus {
+ color: rgb(221,220,175);
+ font-size: 0.9rem;   
+}*/
+
+#menu_gral li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+    
+    /*transition: 0.2s 0.2s;*/
+}
+#menu_gral li:hover ul{
+    width: 100%;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+   
+}
+
+
+
+#menu_gral li li {
+    display: block;
+    width: 100%;
+}
+#menu_gral li:hover li a{ 
+    font-family: Copperlight;
+    font-size: 0.8rem;
+    /*line-height: 1.7rem;*/
+  /*  border-top: 1px solid #e5e5e5;*/
+    background: black;;
+    transition: all 0.5s;
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.45);
+}
+#menu_gral li li a:hover, #menu_gral li li a:focus {
+    background: rgb(230,133,0);
+    transition:0.5s;
+}
+  
+/* ESTILOS DE LAS SECCIONES */ 
+  
+#contenerdor-secciones{
+margin:0 auto;
+max-width: 1440px;
+width:100%;  
+  
+  
+}
+  
+section{
+box-sizing: border-box;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;  
+height:1300px;
+width:100%;   
+margin:0;
+/*max-width: 1440px;*/
+overflow: hidden;
+/*position: relative;*/
+z-index: 5;
+}
+
+#seccion-1{
+  
+background-image: url(../Img/Fondo_Recortado.jpg);
+   
+}
+
+#seccion-2{
+
+background-image: url(../Img/Lampa_Rec.png);
+ 
+}
+/* Texto */
+#seccion-2 h1{
+
+padding: 0 80px;    
+margin-top: 30px;
+font-family: Open Sans sbi;
+font-size:25px;
+/*letter-spacing: 5px;*/
+color:rgb(221, 220, 175);
+background-color: rgba(0,0,0, 0.25);    
+text-shadow: 2px 2px 2px black;
+text-align: justify;
+display: inline-block;    
+}
+/*Título*/
+#seccion-2 h2{
+margin-top: 113px;
+padding: 0;
+font-family: Open Sans sbi;
+font-size:35px;
+background-color:rgba(0,0,0, 0.25);    
+color:rgb(230, 133, 1);
+text-shadow: 2px 2px 2px black;     
+text-align: center;
+}
+
+/* TEXTO EN ITÁLICA */
+#seccion-2 > h3{
+padding-left:20px;    
+width:100%;
+margin-top: 30px;    
+/*padding: 0;*/
+font-family: Open Sans sbi;
+font-size:25px;
+background-color: rgba(0,0,0, 0.25);    
+color:rgb(230,133,1);
+text-shadow: 2px 2px 2px black;
+display:inline;
+}
+
+/*#seccion-2 .Boa:hover{
+   content:  url(../Img/boa_vizcacheras.jpg);
+   align-content: center;
+}*/
+
+
+/*EMPIEZA LA SECCION 3*/
+
+
+ #seccion-3{
+ background-color: black;  
+} 
+
+#seccion-3 h2{
+    
+padding: 0;
+margin-top: 113px; 
+font-family: Copperlight;
+font-size:35px;
+background-color:rgba(0,0,0, 0.25);    
+color:rgb(221, 220, 175);
+text-shadow: 2px 2px 2px black;     
+text-align: center;
+}
+
+
+#seccion-4{
+  
+
+
+}
+ #seccion-5{
+    
+    
+}
+
+#seccion-1amb{
+  background-image: url(../Img/Fondo\ Ambato.jpg);
+  
+}
+#seccion-1amb h1{
+    
+  margin-top: 113px;
+  font-family: Open Sans sbi;
+  padding-left:30px;
+  padding-right:30px;
+  font-size:  40px;
+  background-color:rgba(0,0,0, 0.25);    
+  color:rgb(230,133,1);
+  text-shadow: 2px 2px 2px black;     
+  text-align: center;
+  }
+#seccion-1amb h2{
+    
+  
+  font-family: Open Sans sbi;
+  padding-left:30px;
+  padding-right:30px;
+  font-size:  30px;
+  background-color:rgba(0,0,0, 0.25);    
+  color:rgb(221, 220, 175);
+  text-shadow: 2px 2px 2px black;     
+  text-align: justify;
+  }
+
+.divfotoamb1{
+  margin-top: 113px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.divfotoamb2{
+    margin-top: 20px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+
+.imgamb{
+width: 60%;
+height:60%;
+align-items: center;
+
+}
+
+#seccion-2amb{
+  background-color: black;
+  font-family: Open Sans sbi;
+  height:3000px;
+  width:100%;
+  padding-left:30px;
+  padding-right:30px;
+  padding-bottom: 50px;
+  font-size:  30px;
+  background-color:rgba(0,0,0, 0.25);    
+  color:rgb(221, 220, 175);
+  text-shadow: 2px 2px 2px black;     
+  text-align: justify;
+
+}
+
+#seccion-2amb h2{
+    
+  margin-top: 113px;
+  font-family: Open Sans sbi;
+  padding-left:30px;
+  padding-right:30px;
+  font-size:  30px;
+  background-color:rgba(0,0,0, 0.25);    
+  color:rgb(221, 220, 175);
+  text-shadow: 2px 2px 2px black;     
+  text-align: justify;
+  }
+
+  #seccion-2amb h1{
+    
+    margin-top: 113px;
+    font-family: Open Sans sbi;
+    padding-left:30px;
+    padding-right:30px;
+    font-size: 40px;
+    background-color:rgba(0,0,0, 0.25);    
+    color:rgb(230,133,1);
+    text-shadow: 2px 2px 2px black;     
+    text-align: center;
+    }
+  
+
+
+.aligncenter{
+Text-align: center;
+}
+
+
+.swiper-container {
+    width: 80%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    }
+
+  .swiper-slide >.imgbox {
+    display:flex;
+    justify-content:center;
+    width: 80%;
+    /* border: 1px solid;
+    border-color: beige; */
+      }
+
+.details {
+    width:80%;
+    /* border: 1px solid;
+    border-color: beige; */
+    font-family: Copperlight;
+    font-size: 22px;
+    color: rgb(221,220,175);
+    text-align: center;
+    
+    
+}
+
+img {
+  border-radius: 10px;
+}
+
+/*Estilos Paginas Integrantes */
+
+body#BodyInes {
+
+  background-color: black;
+
+}
+
+.FotoInes {
+margin-top:200px;
+margin-left:150px;
+padding-top: 20px;
+width:20%;
+height:300px;
+float:left;
+}
+
+.Fotos{
+  /*margin-top:50px;*/
+  margin-left:150px;
+  /*padding-top: 30px;*/
+  width:20%;
+  height:300px;
+  float:left;
+  }
+
+
+
+.FotoInes >img{
+  
+
+}
+
+.TextoInes{
+  /*margin-top: 50px;*/
+  margin-left: 50px;
+  width:60%;
+  height:300px;
+  font-family:Open Sans sb ;
+  font-size:18px;
+  color:rgb(221,220,175);
+  text-align: justify;
+  float:left;
+}
+
+
+body#BodyLu {
+
+  background-color: black;
+
+}
+
+
+.FotoLu {
+  margin-top:200px;
+  margin-left:150px;
+  width:20%;
+  height:300px;
+  float:left;
+  }
+  .FotoLu >img{
+    
+  
+  }
+  
+  .TextoLu{
+    margin-top: 200px;
+    margin-left: 50px;
+    width:60%;
+    height:300px;
+    font-family:Open Sans sb ;
+    font-size:18px;
+    color:rgb(221,220,175);
+    text-align: justify;
+    float:left;
+  }
+  .Volver {
+    padding-top:15px;
+    height: 50px;
+    width: 200px;
+    margin-left:185px;
+    color:rgb(221,220,175);
+    font-family:Copperlight ;
+    text-decoration: none;
+    text-align: middle;
+    
+  }
+
+  .Volver a{
+    color:rgb(221,220,175);
+    font-family:Copperlight ;
+    text-decoration: none;
+    }
+
+  .IconoLlama{
+    padding-top:10px;
+    height:20px;
+    margin-left:150px;
+    width: 10px;
+    float:left;
+
+
+  }
+  .Caja_Volver{
+    width: 250px;
+    
+  }
+
+
+  .caja_menu {
+      height: 130px;
+
+  }

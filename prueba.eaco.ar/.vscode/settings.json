@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 8091,
+    "editor.parameterHints.enabled": false,
+    "intelephense.completion.triggerParameterHints": false,
+    "editor.suggest.showReferences": false
+}
