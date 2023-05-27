@@ -1,0 +1,31 @@
+@font-face{
+font-family: Open Sans sbi;
+src:url(../Css/Fuentes/OpenSans-SemiBoldItalic.ttf)format('truetype'); 
+    }
+
+
+@font-face{
+font-family: Open Sans sbi;
+src: url(../Css/Fuentes/OpenSans-SemiBoldItalic.ttf?#iefix) format(embedded-opentype); 
+    }
+
+
+
+
+
+
+@font-face{
+font-family: Open Sans sb;
+src:url(../Css/Fuentes/OpenSans-SemiBold.ttf)format('truetype'); 
+
+}
+
+@font-face{
+font-family: Open Sans sb;
+src: url(../Css/Fuentes/OpenSans-SemiBold.ttf?#iefix)format('truetype') ; 
+    }
+
+@font-face{
+font-family: Copperlight;
+src: url(../Css/Fuentes/Copperlight.ttf) format('truetype');
+}
