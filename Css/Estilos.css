@@ -174,11 +174,6 @@
 }
 
 
-
-
-
-
-
 #menu_gral li li {
 
     display: block;
@@ -226,10 +221,6 @@ margin:0 auto;
 max-width: 1440px;
 
 width:100%;  
-
-  
-
-  
 
 }
 
@@ -279,7 +270,7 @@ background-image: url(../Img/Fondo_Recortado.jpg);
 
 
 
-background-image: url(../Img/Lampa_Rec2.png);
+
 
  
 
@@ -375,12 +366,10 @@ display:inline;
 
  #seccion-3{
 
- background-color: black;  
+  background-image: url(../Img/Lampa_Rec2.png);
+ }
 
-} 
-
-
-
+ 
 #seccion-3 h2{
 
     
