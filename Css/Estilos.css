@@ -395,6 +395,7 @@ display:inline;
    content:  url(../Img/boa_vizcacheras.jpg);
 
    align-content: center;
+    position: float;
 
 }
 
