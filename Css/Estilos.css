@@ -1004,7 +1004,7 @@ body#BodyLu {
   
     swiper-slide >.imgbox {
   
-      display:flex;
+      
   
       justify-content:center;
   
@@ -1019,6 +1019,6 @@ body#BodyLu {
   
   
       details {
-  
+        display:none;
          
   }}
