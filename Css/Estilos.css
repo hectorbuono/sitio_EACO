@@ -396,8 +396,8 @@ display:inline;
   z-index:1;
   left: 300px;
   top: 300px;
-  width: 15%;
-  height: 15%;
+  width: 50%;
+  height: 50%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
   
