@@ -49,24 +49,7 @@
   position: fixed;
 
   z-index: 10; 
-
- 
-
-  
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .logo{
 
@@ -130,7 +113,7 @@
 
     display: block;
 
-   text-decoration: none;
+    text-decoration: none;
 
     font-size: 0.8rem;
 
@@ -514,7 +497,7 @@ display:inline;
 
   }
 
-#seccion-1amb h2{
+  #seccion-1amb h2{
 
   font-family: Open Sans sbi;
 
@@ -986,4 +969,56 @@ body#BodyLu {
   
   .close:hover {
     color: #000;
+  }
+  /* Media Queries */
+
+  @media screen and (max-width: 600px){
+
+    .swiper-container {
+
+      width: 80%;
+  
+      /*padding-top: 150px;
+  
+      padding-bottom: 50px;*/
+  
+      
+  
+    }
+  
+  
+  
+    .swiper-slide {
+  
+      background-position: center;
+  
+      background-size: cover;
+  
+      width: 50px;
+  
+      height: 50 px;
+  
+      }
+  
+  
+  
+    .swiper-slide >.imgbox {
+  
+      display:flex;
+  
+      justify-content:center;
+  
+      width: 50%;
+  
+      /* border: 1px solid;
+  
+      border-color: beige; */
+  
+        }
+  
+  
+  
+  .details {
+  
+         
   }
