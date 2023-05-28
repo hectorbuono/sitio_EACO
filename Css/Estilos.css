@@ -398,7 +398,7 @@ display:inline;
   top: 300px;
   width: 60%;
   height: 60%;
-  overflow: auto;
+  /*overflow: auto;*/
   /*background-color: rgba(0, 0, 0, 0.5);*/
   
 }
