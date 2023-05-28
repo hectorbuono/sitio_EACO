@@ -408,6 +408,7 @@ display:inline;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
+  height: 15%;
   width: 15%;
   content:url(../Img/boa_vizcacheras.jpg);
 }
