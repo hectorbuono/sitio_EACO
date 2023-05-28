@@ -979,8 +979,8 @@ body#BodyLu {
 
     .swiper-container {
 
-      width: 80%;
-      
+      width: 50%;
+      height:50%;
       /*padding-top: 150px;
   
       padding-bottom: 50px;*/
@@ -997,9 +997,9 @@ body#BodyLu {
   
       background-size: cover;
   
-      width: 50px;
+      width: 50%;
   
-      height: 50px;
+      height: 50%;
   
       }
   
