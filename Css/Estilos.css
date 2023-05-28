@@ -404,8 +404,8 @@ display:inline;
 }
 
 .modal-content {
-  background-color: #fefefe;
-  border: 1px solid #888;
+  width: 15%;
+  height: 15%;
   content:url(../Img/boa_vizcacheras.jpg);
 }
 
