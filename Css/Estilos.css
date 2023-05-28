@@ -404,7 +404,7 @@ display:inline;
 }
 
 .modal-content {
-  margin:auto;
+  margin: 5px auto;
   padding: 5px;
   border: 1px solid #888;
   height: 80%;
