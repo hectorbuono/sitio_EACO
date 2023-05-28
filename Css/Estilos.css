@@ -1013,7 +1013,7 @@ body#BodyLu {
   
       width: 50%;
       height: 50%;
-      
+
       /* border: 1px solid;
   
       border-color: beige; */
@@ -1024,5 +1024,58 @@ body#BodyLu {
   
         .swiper-slide >.details {
         display:none;
-         
-  }}
+        }      
+  }
+  @media screen and (max-width: 320px){
+
+    .swiper-container {
+
+      width: 50%;
+      height:50%;
+      /*padding-top: 150px;
+  
+      padding-bottom: 50px;*/
+  
+      
+  
+    }
+  
+  
+  
+    .swiper-slide {
+  
+      background-position: center;
+  
+      background-size: cover;
+  
+      width: 30%;
+  
+      height: 30%;
+  
+      }
+  
+  
+  
+    .swiper-slide >.imgbox {
+  
+      
+  
+      justify-content:center;
+  
+      width: 30%;
+      height: 30%;
+
+      /* border: 1px solid;
+  
+      border-color: beige; */
+  
+        }
+  
+  
+  
+        .swiper-slide >.details {
+        display:none;
+        }      
+
+
+  }
