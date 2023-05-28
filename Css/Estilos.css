@@ -390,36 +390,7 @@ display:inline;
 
 
 
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 300px;
-  top: 300px;
-  width: 60%;
-  height: 60%;
-  overflow: auto;
-  /*background-color: rgba(0, 0, 0, 0.5);*/
-  
-}
 
-.modal-content {
-  margin: 15% auto;
-  height: 50%;
-  width: 50%;
-  content:url(../Img/boa_vizcacheras.jpg);
-}
-
-.close {
-  color: #8415ce;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.close:hover {
-  color: #000;
-}
 
 /*EMPIEZA LA SECCION 3*/
 
@@ -463,13 +434,38 @@ text-align: center;
 
 #seccion-4{
 
-  
+  background-color: black;   
 
 
 
 
 
 }
+
+#seccion-4 h2{    
+
+  padding: 0;
+  
+  margin-top: 113px; 
+  
+  font-family: Copperlight;
+  
+  font-size:35px;
+  
+  background-color:rgba(0,0,0, 0.25);    
+  
+  color:rgb(221, 220, 175);
+  
+  text-shadow: 2px 2px 2px black;     
+  
+  text-align: center;
+  
+  }
+
+
+
+
+
 
  #seccion-5{
 
@@ -806,21 +802,6 @@ float:left;
   }
 
 
-
-
-
-
-
-.FotoInes >img{
-
-  
-
-
-
-}
-
-
-
 .TextoInes{
 
   /*margin-top: 50px;*/
@@ -875,17 +856,7 @@ body#BodyLu {
 
   }
 
-  .FotoLu >img{
-
-    
-
-  
-
-  }
-
-  
-
-  .TextoLu{
+ .TextoLu{
 
     margin-top: 200px;
 
@@ -981,3 +952,33 @@ body#BodyLu {
 
   }
 
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 300px;
+    top: 300px;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    
+  }
+  
+  .modal-content {
+    margin: 15% auto;
+    height: 50%;
+    width: 50%;
+    content:url(../Img/boa_vizcacheras.jpg);
+  }
+  
+  .close {
+    color: #8415ce;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
