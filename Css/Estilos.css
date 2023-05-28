@@ -404,10 +404,10 @@ display:inline;
 }
 
 .modal-content {
-  margin: 15% auto;
-  padding: 20px;
+  margin:auto;
+  padding: 5px;
   border: 1px solid #888;
-  height: 50%;
+  height: 80%;
   width: 80%;
   content:url(../Img/boa_vizcacheras.jpg);
 }
