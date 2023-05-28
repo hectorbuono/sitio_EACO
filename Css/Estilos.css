@@ -396,8 +396,8 @@ display:inline;
   z-index: 1;
   left: 0;
   top: 0;
-  width: 50%;
-  height: 50%;
+  width: 15%;
+  height: 15%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
   
@@ -408,12 +408,12 @@ display:inline;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 15%;
   content:url(../Img/boa_vizcacheras.jpg);
 }
 
 .close {
-  color: #aaa;
+  color: #8415ce;
   float: right;
   font-size: 28px;
   font-weight: bold;
