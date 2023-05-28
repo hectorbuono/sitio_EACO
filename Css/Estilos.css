@@ -404,7 +404,11 @@ display:inline;
 }
 
 .modal-content {
+<<<<<<< HEAD
+  padding: 10px;
+=======
   margin: 10px auto;
+>>>>>>> 2e9c33021a5111908dc8de60d71d4cac18b24b7e
   border: 5px solid #888;
   height: 50%;
   width: 50%;
