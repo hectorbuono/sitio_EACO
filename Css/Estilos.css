@@ -144,31 +144,11 @@
 
 #menu_gral li:hover a{ 
 
-        color: #DDDCAF;
-
-        /*background: rgb(230,133,0);*/
-
-        transition: all 0.5s;
-
-        
-
-        /*border-top: 2px solid;
-
-        border-color: black;
-
-*/    
+    color: #DDDCAF;
+    transition: all 0.5s;
+       
 
 }
-
-/*#menu_gral li a:focus {
-
- color: rgb(221,220,175);
-
- font-size: 0.9rem;   
-
-}*/
-
-
 
 #menu_gral li ul {
 
@@ -177,11 +157,6 @@
     width: 0;
 
     overflow: hidden;
-
-    
-
-    /*transition: 0.2s 0.2s;*/
-
 }
 
 #menu_gral li:hover ul{
