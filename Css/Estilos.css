@@ -394,8 +394,8 @@ display:inline;
   display: none;
   position: fixed;
   z-index: 1;
-  left: 300px;
-  top: 300px;
+  left: 100px;
+  top: 100px;
   width: 50%;
   height: 50%;
   overflow: auto;
@@ -404,7 +404,6 @@ display:inline;
 }
 
 .modal-content {
-  margin: auto;
   height: 50%;
   width: 50%;
   content:url(../Img/boa_vizcacheras.jpg);
