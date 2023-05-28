@@ -390,13 +390,10 @@ display:inline;
 
 
 
-#seccion-2 .Boa:hover{
+#Boa_Modal{
 
    content:  url(../Img/boa_vizcacheras.jpg);
-
-   align-content: center;
-   display: flex;
-   position: float;
+   ;
 
 }
 
