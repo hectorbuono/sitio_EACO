@@ -974,7 +974,7 @@ body#BodyLu {
 
   @media screen and (max-width: 600px){
 
-    .swiper-container {
+    swiper-container {
 
       width: 80%;
   
@@ -988,7 +988,7 @@ body#BodyLu {
   
   
   
-    .swiper-slide {
+    swiper-slide {
   
       background-position: center;
   
@@ -1002,7 +1002,7 @@ body#BodyLu {
   
   
   
-    .swiper-slide >.imgbox {
+    swiper-slide >.imgbox {
   
       display:flex;
   
@@ -1018,7 +1018,7 @@ body#BodyLu {
   
   
   
-  .details {
+      details {
   
          
-  }
+  }}
