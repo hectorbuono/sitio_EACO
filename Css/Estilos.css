@@ -975,7 +975,7 @@ body#BodyLu {
   }
   /* Media Queries */
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 640px){
 
     .swiper-container {
 
