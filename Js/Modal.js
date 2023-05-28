@@ -1,3 +1,3 @@
-const btnAbrirmodal= document.querySelector(#btnAbrirmodal);
-const btnCerrarModal = document.querySelector(#btnCerrarModal);
-const modal= document.querySelector(#modal);
+function AbrirModal() {
+    document.getElementById("modal").style.display = "block";
+  }
