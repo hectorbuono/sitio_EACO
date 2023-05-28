@@ -977,6 +977,32 @@ body#BodyLu {
 
   @media screen and (max-width: 640px){
 
+    #menu_gral {
+
+      font-family: Copperlight;
+      font-size: 12px;
+      width: 100%;
+  
+      margin: 2rem auto;
+  
+      /*float:right;*/
+  
+      display: flex;
+  
+      flex-direction: row;
+      
+  
+  }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .swiper-container {
 
       width: 50%;
