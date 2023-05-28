@@ -1024,6 +1024,7 @@ body#BodyLu {
   
         .swiper-slide >.details {
           font-size: 10px;
+          color: #000;
         }      
   }
   @media screen and (max-width: 320px){
