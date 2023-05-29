@@ -79,12 +79,12 @@ header img {
 /* ESTILOS DE MENÚ */
 
 .menu {
-    display:flex;
+   display:flex;
    font-family: Copperlight;
    list-style: none;
    padding: 0;
    margin: 0;
-  flex-direction: row;
+   flex-direction: row;
 }
 
 /* .menu ul {

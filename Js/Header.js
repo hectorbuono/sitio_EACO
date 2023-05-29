@@ -9,7 +9,7 @@ logo.src = 'Img/Logo (INES)-chica.png';
 logo.alt = 'Logo de mi sitio web';
 
 // Crear el elemento de menú
-var menu = document.createElement('nav');
+var menu = document.createElement('ul');
 // Agrega aquí los elementos del menú, como enlaces <a> o elementos <ul> y <li>
 var menuItem1 = document.createElement('li');
   var menuItemLink1 = document.createElement('a');
@@ -21,6 +21,7 @@ var menuItem2 = document.createElement('li');
   menuItemLink2.textContent = 'Equipo';
   menuItemLink2.href = 'index.html#El_Equipo';  
   menuItem2.appendChild(menuItemLink2);
+
   // Crear el submenú para el elemento "Equipo"
   var subMenu = document.createElement('ul');
   var subMenuItem1 = document.createElement('li');
@@ -29,12 +30,14 @@ var menuItem2 = document.createElement('li');
   subMenuItem1.appendChild(subMenuItemLink1);
   subMenu.appendChild(subMenuItem1);
   menuItem2.appendChild(subMenu);
+
 // Agregar el logotipo y el menú al encabezado
-header.appendChild(logo);
-header.appendChild(menu);
-menu.appendChild(menuItem1);
-menu.appendChild(menuItem2);
+  header.appendChild(logo);
+  header.appendChild(menu);
+  menu.appendChild(menuItem1);
+  menu.appendChild(menuItem2);
 //menu.appendChild(menuItem3);
+
 // Agregar el encabezado a la página
-document.body.insertBefore(header, document.body.firstChild);
+  document.body.insertBefore(header, document.body.firstChild);
 });
