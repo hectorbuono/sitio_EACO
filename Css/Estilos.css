@@ -84,7 +84,7 @@ header img {
    list-style: none;
    padding: 0;
    margin: 0;
-   float: right;
+  flex-direction: row;
 }
 
 /* .menu ul {
@@ -104,8 +104,8 @@ header img {
 }
 
 .menu li a {
-  display: block
-  color: #333;
+  display: block;
+  color: rgb(221, 220, 175);
   text-decoration: none;
   padding: 5px;
 }
@@ -113,7 +113,7 @@ header img {
 .menu li:hover { 
   
     background-color: #333;
-    color: #fff;
+    color: rgb(221, 220, 175);
 }
        
 /* Estilos para los submenús */
