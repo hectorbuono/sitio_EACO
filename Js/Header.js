@@ -28,7 +28,7 @@ var menuItem2 = document.createElement('li');
   subMenuItemLink1.textContent = 'Logo';
   subMenuItem1.appendChild(subMenuItemLink1);
   subMenu.appendChild(subMenuItem1);
-
+  menuItem2.appendChild(subMenu);
 // Agregar el logotipo y el menú al encabezado
 header.appendChild(logo);
 header.appendChild(menu);
