@@ -88,7 +88,7 @@ header img {
    color:rgb(221, 220, 175);
 }
 
-..menu ul {
+.menu ul {
   display: inline-block;
   list-style-type: none; 
   text-align: center;
