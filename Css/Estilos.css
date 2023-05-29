@@ -106,11 +106,9 @@ header img {
 
 .menu  li {
 
-    display: flex;
-
-    width: 15%;
-
-    position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
 
    
 
@@ -120,27 +118,22 @@ header img {
 
 .menu li a {
 
-    display: block;
-
-    text-decoration: none;
-
-    font-size: 0.8rem;
-
-    line-height: 2.5rem;
-
-    color: rgb(221,220,175);
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
 
      
 
 }
 
-.menu li:hover a{ 
-
-    color: #DDDCAF;
-    transition: all 0.5s;
+.menu li:hover { 
+  
+    background-color: #333;
+    color: #fff;
+  }
        
 
-}
+
 
 /* .menu_gral li ul {
 
