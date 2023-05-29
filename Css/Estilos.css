@@ -89,7 +89,6 @@ header img {
 }
 
 .menu ul {
-  display: inline-block;
   list-style-type: none; 
   text-align: center;
   font-size: 0;
