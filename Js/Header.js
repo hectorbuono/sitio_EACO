@@ -17,7 +17,7 @@ var menuItem1 = document.createElement('li');
   menuItemLink1.href = 'index.html'; // Ruta a la página de inicio
   menuItem1.appendChild(menuItemLink1);
 var menuItem2 = document.createElement('li');
-  var menuItemLink1 = document.createElement('a');
+  var menuItemLink2 = document.createElement('a');
   menuItemLink1.textContent = 'Equipo';
   menuItemLink.href = 'index.html/#seccion-2';  
 
