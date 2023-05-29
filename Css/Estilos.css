@@ -976,9 +976,10 @@ body#BodyLu {
   .close:hover {
     color: #000;
   }
+
   /* Media Queries */
 
-  @media screen and (max-width: 640px){
+  /* @media screen and (max-width: 640px){
 
     #menu_gral {
 
@@ -988,41 +989,29 @@ body#BodyLu {
   
       margin: 2rem auto;
   
-      /*float:right;*/
+      float:right;
   
       display: flex;
   
       flex-direction: column;
+        
+    }*/
       
-  
-  }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    /*   
     .swiper-container {
 
       width: 50%;
       height:50%;
       /*padding-top: 150px;
   
-      padding-bottom: 50px;*/
-  
-      
-  
-    }
+      padding-bottom: 50px;
+    }*/
   
   
   
-    .swiper-slide {
-  
-      background-position: center;
+  /*   .swiper-slide {
+    
+    background-position: center;
   
       background-size: cover;
   
@@ -1031,10 +1020,10 @@ body#BodyLu {
       height: 50%;
   
       }
+   */
   
   
-  
-    .swiper-slide >.imgbox {
+    /* .swiper-slide >.imgbox {
   
       
   
@@ -1045,17 +1034,20 @@ body#BodyLu {
 
       /* border: 1px solid;
   
-      border-color: beige; */
+      border-color: beige; 
   
-        }
+        } */
   
   
   
-        .swiper-slide >.details {
+        /* .swiper-slide >.details {
           font-size: 10px;
           color: #000;
-        }      
-  }
+        }       
+  }*/
+
+
+  /*
   @media screen and (max-width: 320px){
 
     .swiper-container {
@@ -1064,15 +1056,15 @@ body#BodyLu {
       height:50%;
       /*padding-top: 150px;
   
-      padding-bottom: 50px;*/
+      padding-bottom: 50px;
   
       
   
-    }
+    }*/
   
   
   
-    .swiper-slide {
+    /* .swiper-slide {
   
       background-position: center;
   
@@ -1082,10 +1074,10 @@ body#BodyLu {
   
       height: 30%;
   
-      }
+      } */
   
   
-  
+/*  
     .swiper-slide >.imgbox {
   
       
@@ -1097,15 +1089,14 @@ body#BodyLu {
 
       /* border: 1px solid;
   
-      border-color: beige; */
+      border-color: beige; 
   
-        }
+        }*/
   
-  
-  
+      /* 
         .swiper-slide >.details {
         display:none;
         }      
+ */
 
-
-  }
+ 
