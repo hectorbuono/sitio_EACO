@@ -60,7 +60,7 @@ var menu = document.createElement('nav');
 
        <li><a href="#">LIBROS</a></li>
 
-       <li><a href="#">CAPÍTULOS<br> DE LIBRO</a></li>
+       <li><a href="#">CAPÍTULOS DE LIBRO</a></li>
 
        <li><a href="#">ARTÍCULOS</a></li>
 
