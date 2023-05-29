@@ -36,11 +36,6 @@
 
   } */
 
-.header{
-  position:sticky;
-
-}
-
 .contenedor{
 
   width:100%;
@@ -59,7 +54,7 @@
   margin: 5px;
 
 }
-.logo{
+/* .logo{
 
   content: url(../Img/Logo_transparente.png);
 
@@ -69,7 +64,7 @@
 
   float:left;
 
-  }
+  } */
 
 
 
