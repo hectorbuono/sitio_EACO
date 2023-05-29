@@ -91,7 +91,7 @@ header img {
 .menu ul {
   list-style-type: none; 
   text-align: center;
-  font-family: Copperlight;
+  font-family:Open Sans sb;
   font-size: 22;
   color:rgb(221, 220, 175);
 } 
@@ -117,36 +117,6 @@ header img {
     color: rgb(221, 220, 175);
 }
        
-/* Estilos para los submenús */
-
-.subMenu ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: rgb(221, 220, 175);
-  padding: 0;
-  margin: 0;
-}
-
-.subMenu li:hover > ul {
-  display: block;
-}
-
-.subMenu ul li {
-  display: block;
-}
-
-.subMenu ul li a {
-  padding: 5px 10px;
-  color: #333;
-  text-decoration: none;
-}
-
-.subMenu ul li a:hover {
-  background-color: #333;
-  color: #fff;
-}
 
 /* .menu_gral li ul {
 
