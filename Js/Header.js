@@ -14,7 +14,7 @@ var menu = document.createElement('nav');
 var menuItem1 = document.createElement('li');
   var menuItemLink1 = document.createElement('a');
   menuItemLink1.textContent = 'Inicio';
-  menuItemLink1.href = 'index.html'; // Ruta a la página de inicio
+  menuItemLink1.href = 'index.html#seccion-1'; // Ruta a la página de inicio
   menuItem1.appendChild(menuItemLink1);
 var menuItem2 = document.createElement('li');
   var menuItemLink2 = document.createElement('a');
