@@ -7,20 +7,13 @@
        
 
 }
-
-
-
  html{
-
-    
-
-    scroll-behavior: smooth;
-
+       scroll-behavior: smooth;
 } 
 
 
-
-/* body {
+/*
+ body {
 
     background: #fff;
 
@@ -34,7 +27,7 @@
 
     padding: 0;
 
-  } */
+  }*/ 
 
 /* .contenedor{
 
@@ -653,9 +646,7 @@ body#BodyLu {
   .Volver a{
 
     color:rgb(221,220,175);
-
     font-family:Copperlight ;
-
     text-decoration: none;
 
     }
@@ -665,13 +656,9 @@ body#BodyLu {
   .IconoLlama{
 
     padding-top:10px;
-
     height:20px;
-
     margin-left:150px;
-
     width: 10px;
-
     float:left;
 
   }
@@ -683,13 +670,8 @@ body#BodyLu {
   }
 
 
-
-
-
   .caja_menu {
-
       height: 130px;
-
   }
 
   /* }
