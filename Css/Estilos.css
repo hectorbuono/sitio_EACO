@@ -118,7 +118,7 @@ header img {
        
 /* Estilos para los submenús */
 
-.submenu ul {
+.subMenu ul {
   display: none;
   position: absolute;
   top: 100%;
@@ -128,21 +128,21 @@ header img {
   margin: 0;
 }
 
-.submenu li:hover > ul {
+.subMenu li:hover > ul {
   display: block;
 }
 
-.submenu ul li {
+.subMenu ul li {
   display: block;
 }
 
-.submenu ul li a {
+.subMenu ul li a {
   padding: 5px 10px;
   color: #333;
   text-decoration: none;
 }
 
-.submenu ul li a:hover {
+.subMenu ul li a:hover {
   background-color: #333;
   color: #fff;
 }
