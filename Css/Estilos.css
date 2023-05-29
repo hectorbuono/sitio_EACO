@@ -83,6 +83,7 @@ header img {
    padding: 10;
    margin: 10;
    flex-direction: row;
+   width: 100%;
    color:rgb(221, 220, 175);
    float:right;
 }
