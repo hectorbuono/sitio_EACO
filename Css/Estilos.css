@@ -78,7 +78,7 @@ header img {
 
 /* ESTILOS DE MENÚ */
 
-.menu {
+menu {
    display:flex;
    font-family: Copperlight;
    list-style: none;
@@ -88,7 +88,7 @@ header img {
    color:rgb(221, 220, 175);
 }
 
-.menu ul {
+menu ul {
   display: inline-block;
   list-style-type: none; 
   text-align: center;
@@ -96,7 +96,7 @@ header img {
   color:rgb(221, 220, 175);
 } 
 
-.menu  li {
+menu  li {
 
   display: inline-block;
   margin-right: 10px;
@@ -104,14 +104,14 @@ header img {
     /*transition: 2s;*/
 }
 
-.menu li a {
+menu li a {
   display: block;
   color: rgb(221, 220, 175);
   text-decoration: none;
   padding: 5px;
 }
 
-.menu li:hover { 
+menu li:hover { 
   
     background-color: #333;
     color: rgb(221, 220, 175);
