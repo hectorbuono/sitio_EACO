@@ -942,9 +942,9 @@ body#BodyLu {
 
       height: 130px;
 
-
-
   }
+
+  /* }
 
   .modal {
     display: none;
@@ -955,27 +955,27 @@ body#BodyLu {
     width: 60%;
     height: 60%;
     overflow: auto;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
+    /*background-color: rgba(0, 0, 0, 0.5);
     
-  }
-  
+  } */
+  /* 
   .modal-content {
     margin: 15% auto;
     height: 50%;
     width: 50%;
     content:url(../Img/boa_vizcacheras.jpg);
-  }
-  
+  } */
+ /*  
   .close {
     color: #8415ce;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
-  }
-  
+  } */
+  /* 
   .close:hover {
     color: #000;
-  }
+  } */
 
   /* Media Queries */
 
