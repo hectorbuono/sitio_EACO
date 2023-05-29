@@ -11,13 +11,15 @@ logo.alt = 'Logo de mi sitio web';
 // Crear el elemento de menú
 var menu = document.createElement('nav');
 // Agrega aquí los elementos del menú, como enlaces <a> o elementos <ul> y <li>
-var menu = document.createElement('ul');
 var menuItem1 = document.createElement('li');
-menuItem1.textContent = 'Inicio';
+  var menuItemLink1 = document.createElement('a');
+  menuItemLink1.textContent = 'Inicio';
+  menuItemLink1.href = 'index.html'; // Ruta a la página de inicio
+  menuItem1.appendChild(menuItemLink1);
 var menuItem2 = document.createElement('li');
-menuItem2.textContent = 'Acerca de';
-var menuItem3 = document.createElement('li');
-menuItem3.textContent = 'Contacto';
+  var menuItemLink1 = document.createElement('a');
+  menuItemLink1.textContent = 'Equipo';
+  menuItemLink.href = 'index.html/#seccion-2';  
 
 // Agregar el logotipo y el menú al encabezado
 header.appendChild(logo);
