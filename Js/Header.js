@@ -20,7 +20,7 @@ var menuItem2 = document.createElement('li');
   var menuItemLink2 = document.createElement('a');
   menuItemLink1.textContent = 'Equipo';
   menuItemLink.href = 'index.html/#seccion-2';  
-
+  menuItem2.appendChild(menuItemLink2);
 // Agregar el logotipo y el menú al encabezado
 header.appendChild(logo);
 header.appendChild(menu);
