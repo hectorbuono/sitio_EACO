@@ -5,7 +5,7 @@ var header = document.createElement('header');
 
 // Crear el elemento de logotipo
 var logo = document.createElement('img');
-logo.src = 'Img/Logotransparente.png';
+logo.src = 'Img/Logo_transparente.png';
 logo.alt = 'Logo de mi sitio web';
 
 // Crear el elemento de menú
