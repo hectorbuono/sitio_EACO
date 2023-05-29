@@ -87,13 +87,13 @@ header img {
    flex-direction: row;
 }
 
-/* .menu ul {
+.menu ul {
   display: inline-block;
   list-style-type: none; 
   text-align: center;
   font-size: 0;
   color:rgb(221, 220, 175);
-} */
+} 
 
 .menu  li {
 
@@ -117,7 +117,8 @@ header img {
 }
        
 /* Estilos para los submenús */
-.menu ul {
+
+.submenu ul {
   display: none;
   position: absolute;
   top: 100%;
@@ -127,33 +128,24 @@ header img {
   margin: 0;
 }
 
-.menu li:hover > ul {
+.submenu li:hover > ul {
   display: block;
 }
 
-.menu ul li {
+.submenu ul li {
   display: block;
 }
 
-.menu ul li a {
+.submenu ul li a {
   padding: 5px 10px;
   color: #333;
   text-decoration: none;
 }
 
-.menu ul li a:hover {
+.submenu ul li a:hover {
   background-color: #333;
   color: #fff;
 }
-
-
-
-
-
-
-
-
-
 
 /* .menu_gral li ul {
 
