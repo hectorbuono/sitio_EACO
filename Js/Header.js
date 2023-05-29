@@ -18,8 +18,8 @@ var menuItem1 = document.createElement('li');
   menuItem1.appendChild(menuItemLink1);
 var menuItem2 = document.createElement('li');
   var menuItemLink2 = document.createElement('a');
-  menuItemLink1.textContent = 'Equipo';
-  menuItemLink.href = 'index.html/#seccion-2';  
+  menuItemLink2.textContent = 'Equipo';
+  menuItemLink2.href = 'index.html/#seccion-2';  
   menuItem2.appendChild(menuItemLink2);
 // Agregar el logotipo y el menú al encabezado
 header.appendChild(logo);
