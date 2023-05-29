@@ -26,7 +26,7 @@ header.appendChild(logo);
 header.appendChild(menu);
 menu.appendChild(menuItem1);
 menu.appendChild(menuItem2);
-menu.appendChild(menuItem3);
+//menu.appendChild(menuItem3);
 // Agregar el encabezado a la página
 document.body.insertBefore(header, document.body.firstChild);
 });
