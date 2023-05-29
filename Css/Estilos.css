@@ -67,8 +67,8 @@
 
 .header{
 
-background-color: #000;
-position: fixed;
+  background-color: #000;
+  position: sticky;
 
 }
 /* ESTILOS DE MENÚ */
