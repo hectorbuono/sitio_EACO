@@ -21,6 +21,14 @@ var menuItem2 = document.createElement('li');
   menuItemLink2.textContent = 'Equipo';
   menuItemLink2.href = 'index.html#El_Equipo';  
   menuItem2.appendChild(menuItemLink2);
+  // Crear el submenú para el elemento "Equipo"
+  var subMenu = document.createElement('ul');
+  var subMenuItem1 = document.createElement('li');
+  var subMenuItemLink1 = document.createElement('a');
+  subMenuItemLink1.textContent = 'Logo';
+  subMenuItem1.appendChild(subMenuItemLink1);
+
+
 // Agregar el logotipo y el menú al encabezado
 header.appendChild(logo);
 header.appendChild(menu);
