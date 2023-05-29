@@ -36,7 +36,7 @@
 
   } */
 
-.contenedor{
+/* .contenedor{
 
   width:100%;
 
@@ -47,13 +47,13 @@
   position: fixed;
 
   z-index: 10; 
-}
+} */
 
-.contenedor > div {
+/* .contenedor > div {
   
   margin: 5px;
 
-}
+} */
  /* .logo{
 
     width:300px;
