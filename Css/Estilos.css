@@ -79,7 +79,7 @@ header img {
 /* ESTILOS DE MENÚ */
 
 .menu {
-
+    display:flex;
    font-family: Copperlight;
    list-style: none;
    padding: 0;
