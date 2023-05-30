@@ -47,22 +47,19 @@
 }
 .logo{
 
-    width:150px;
-
-    height:90px;
-
-    float:left;
-
-  } 
+  width:150px;
+  height:90px;
+  float:left;
+} 
 
 
 header{
-  background-color: #b82a2a;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
+   background-color: #b82a2a;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 10px;
 
 }
 
@@ -75,7 +72,6 @@ header{
    margin: 10;
    flex-direction: row;
    color:rgb(221, 220, 175);
-  
 }
 
 .menu ul {
@@ -107,11 +103,7 @@ header{
        
 
 .menu li ul {
-
-    position: absolute;
-
     width: 0;
-
     overflow: hidden;
 }
  
