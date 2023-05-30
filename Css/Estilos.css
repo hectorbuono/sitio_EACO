@@ -108,7 +108,7 @@ header{
 }
        
 
-/* .menu_gral li ul {
+.menu li ul {
 
     position: absolute;
 
@@ -116,33 +116,28 @@ header{
 
     overflow: hidden;
 }
- */
-/* .menu li:hover ul{
+ 
+.menu li:hover ul{
 
     width: 100%;
-
     margin: 0 -4rem -4rem -4rem;
-
     padding: 0 4rem 4rem 4rem;
-
     z-index: 5;
 }
- */
-
- /* .menu li li {
  
- display: block;
 
+ .menu li li {
+ 
+    display: block;
     width: 100%;
-
-}
+ }
 
 .menu li:hover li a{ 
 
     font-family: Copperlight;
 
     font-size: 0.8rem;
- */
+
     /*line-height: 1.7rem;*/
 
   /*  border-top: 1px solid #e5e5e5;*/
@@ -151,10 +146,10 @@ header{
   
     transition: all 0.5s;
 
-    box-shadow: 3px 3px 5px rgba(0,0,0, 0.45);
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.45);*/
 
 }
- */
+ 
 /* .menu li li a:hover, .menu li li a:focus {
 
     background: rgb(230,133,0);
