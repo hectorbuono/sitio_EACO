@@ -82,6 +82,8 @@ header{
 }
 
 .menu ul {
+  display:flex;
+  flex-direction: row;
   list-style-type: none; 
   text-align: center;
   font-family:Open Sans sb;
