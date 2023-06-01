@@ -82,8 +82,6 @@ header{
 }
 
 .menu ul {
-  display:flex;
-  flex-direction: row;
   list-style-type: none; 
   text-align: center;
   font-family:Open Sans sb;
@@ -94,6 +92,9 @@ header{
 .menu  li {
   margin-right: 10px;
   position: relative;
+  font-family:Open Sans sb;
+  font-size: 22;
+  color:rgb(221, 220, 175);
     /*transition: 2s;*/
 }
 
