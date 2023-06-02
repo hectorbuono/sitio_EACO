@@ -27,7 +27,7 @@ height:100px;
 
 
 }
-.encabezado{
+#encabezado{
     background-color: #000000;
     position: fixed;
     top: 0;
