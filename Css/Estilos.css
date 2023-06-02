@@ -38,7 +38,7 @@ height:100px;
   }    
  
 
-#contenedor_menu{
+.contenedor_menu{
     width:60%;
 
    background-color: rgb(199, 27, 27);
