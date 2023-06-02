@@ -28,7 +28,11 @@
     padding: 0;
 
   }*/ 
+.vacio > div{
+width: 100px;
 
+
+}
 .encabezado{
     background-color: #000000;
     position: fixed;
