@@ -29,7 +29,7 @@
 
   }*/ 
 
-  header{
+  #header{
     background-color: #000000;
     position: fixed;
     top: 0;
@@ -38,7 +38,7 @@
   }    
  
 
-.contenedor_menu{
+#contenedor_menu{
     width:60%;
 
    background-color: rgb(199, 27, 27);
