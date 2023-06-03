@@ -1,4 +1,9 @@
-  
+* {
+
+  margin: 0;
+
+  padding: 0;
+}  
 
  html{
        scroll-behavior: smooth;
@@ -97,6 +102,19 @@ width:200px;
   color:rgb(221, 220, 175);
 } 
 
+.menu ul li {
+
+  display: inline-block;
+
+  width: 15%;
+
+  position: relative;
+
+ 
+
+  /*transition: 2s;*/
+
+}
 .menu  li {
   margin-right: 10px;
   position: relative;
