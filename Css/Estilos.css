@@ -74,14 +74,10 @@ nav {
 }
 
 .menu {
-   
-   list-style-type: none;
-   padding: 10;
-   margin: 10;
-   color:rgb(221, 220, 175);
-   float: right;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  background: none;
 }
-
 .menu ul {
   display:flex;
   flex-direction: row;
