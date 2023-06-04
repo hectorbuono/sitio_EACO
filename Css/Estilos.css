@@ -79,9 +79,6 @@ nav {
 
   position: relative;
 
- 
-
-  /*transition: 2s;*/
 
 }
 .menu  li {
@@ -90,7 +87,7 @@ nav {
   font-family:Open Sans sb;
   font-size: 22;
   color:rgb(221, 220, 175);
-    /*transition: 2s;*/
+
 }
 
 .menu li a {
@@ -129,14 +126,16 @@ nav {
     font-size: 0.8rem;
 }
  
-
-
 .item {
   padding: 10px;
 }
+
+
 .item.button {
   padding: 9px 5px;
 }
+
+
 .item:not(.button) a:hover,
 .item a:hover::after {
   color: #ccc;
