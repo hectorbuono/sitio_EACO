@@ -164,12 +164,19 @@ nav {
 
 }
  
+
+
 .item {
-  order: 1;
-  position: relative;
-  display: block;
-  width: auto;
+  padding: 10px;
 }
+.item.button {
+  padding: 9px 5px;
+}
+.item:not(.button) a:hover,
+.item a:hover::after {
+  color: #ccc;
+}
+
 .button {
   order: 2;
 }
