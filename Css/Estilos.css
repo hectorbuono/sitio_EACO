@@ -35,15 +35,20 @@
  
 
 .contenedor_menu{
-   width:60%;
+   width:80px;
    background-color: #000000;
  
    
    }
 
+.logo > img{
+    width:300px;
+    height:100px;
+    background-color: #000000;
+}   
 
 .logo{
-  width:350px;
+  width:300px;
   height:100px;
   background-color: #000000;
 }   
