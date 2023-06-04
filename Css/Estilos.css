@@ -184,24 +184,30 @@ nav {
 
 #contenerdor-secciones{
 
-margin:0 auto;
-width:100%;  
+  margin:0 auto;
+  
+  max-width: 1440px;
+  
+  width:100%;  
+ 
+  }
 
 
-}
-#section{
+  section{
 
-box-sizing: border-box;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-size: cover;  
-width:100%;   
-margin:0;
-/*max-width: 1440px;*/
-overflow: hidden;
-/*position: relative;*/
-z-index: 5;
-}
+    box-sizing: border-box;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height:1300px;
+    width:100%;   
+    margin:0;
+    /*max-width: 1440px;*/
+    overflow: hidden;
+    /*position: relative;*/
+    z-index: 5;
+    
+    }
 
 #seccion-1{
 background-image: url(../Img/Fondo_Recortado.jpg);
