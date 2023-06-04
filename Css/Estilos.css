@@ -9,7 +9,7 @@
 
 
 
- body {
+ /*body {
 
     background: #fff;
 
@@ -21,13 +21,8 @@
 
     padding: 0;
 
-  }
+  }*/
 
-
-
-
-
-}
 #encabezado{
     background-color: #000000;
     position: fixed;
