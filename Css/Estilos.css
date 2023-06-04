@@ -66,15 +66,10 @@ nav {
   flex-wrap: nowrap;
   background: none;
 }
-.menu ul {
-  display:flex;
-  flex-direction: row;
-  list-style-type: none; 
-  text-align: center;
-  font-family:Open Sans sb;
-  font-size: 22;
-  color:#dddcaf;
-} 
+.menu,
+.submenu {
+  list-style-type: none;
+}
 
 .item {
   padding: 10px;
