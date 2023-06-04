@@ -186,10 +186,10 @@ nav {
 
 margin:0 auto;
 width:100%;  
-
+background-color: #000;
 }
 #section{
-background-color: #000;
+
 box-sizing: border-box;
 background-attachment: fixed;
 background-repeat: no-repeat;
