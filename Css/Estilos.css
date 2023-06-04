@@ -221,7 +221,7 @@ nav {
   font-size: 12px;
 }
 .has-submenu > a::after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Copperlight";
   font-size: 12px;
   line-height: 16px;
   font-weight: 900;
