@@ -76,61 +76,6 @@ nav {
   color:#dddcaf;
 } 
 
-.menu ul li {
-
-  display: inline-block;
-
-  width: 15%;
-
-  position: relative;
-
-
-}
-.menu  li {
-  margin-right: 10px;
-  position: relative;
-  font-family:Open Sans sb;
-  font-size: 22;
-  color:#dddcaf;
-
-}
-
-.menu li a {
-
-  font-family:Open Sans sb;
-  font-size: 22;
-  color:rgb(221, 220, 175);
-  text-decoration: none;
-  padding: 5px;
-}
-
-.menu li:hover { 
-  
-    background-color: #333;
-    color: rgb(221, 220, 175);
-}
-       
-
-.menu li ul {
-    width: 0;
-    overflow: hidden;
-}
- 
-.menu li:hover ul{
-
-    width: 100%;
-    margin: 0 -4rem -4rem -4rem;
-    padding: 0 4rem 4rem 4rem;
-    z-index: 5;
-}
- 
-.menu li:hover li a{ 
-
-    font-family: Copperlight;
-
-    font-size: 0.8rem;
-}
- 
 .item {
   padding: 10px;
 }
