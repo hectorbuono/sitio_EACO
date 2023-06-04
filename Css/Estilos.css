@@ -164,6 +164,31 @@ nav {
 
 }
  
+.item {
+  order: 1;
+  position: relative;
+  display: block;
+  width: auto;
+}
+.button {
+  order: 2;
+}
+.submenu-active .submenu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 68px;
+  background: #111;
+}
+.toggle {
+  display: none;
+}
+.submenu-active {
+  border-radius: 0;
+}
+
+
+
 /* .menu li li a:hover, .menu li li a:focus {
 
     background: rgb(230,133,0);
