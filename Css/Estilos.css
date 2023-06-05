@@ -85,15 +85,16 @@ a {
   padding: 9px 5px;
 }
 
-
-
 .item:not(.button) a:hover,
 .item a:hover::after {
   color: #e68500;
 }
 
+/*----------------------------------------------------------------*/
 
  /* Mobile menu */
+
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -154,7 +155,7 @@ a {
   border-radius: 3px;
 }
 
-
+/*----------------------------------------------------------------*/
 
 /* Tablet menu */
 @media all and (min-width: 700px) {
@@ -199,37 +200,14 @@ a {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------------------------------------------------------------*/
 /* Desktop menu */
 @media all and (min-width: 960px) {
   .menu {
     align-items: flex-start;
     flex-wrap: nowrap;
     background: none;
+    float: right;
   }
   .logo {
     order: 0;
