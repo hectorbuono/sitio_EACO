@@ -71,6 +71,10 @@ nav {
   list-style-type: none;
 }
 
+a {
+  color: #dddcaf;
+  text-decoration: none;
+}
 .item {
   padding: 10px;
 }
