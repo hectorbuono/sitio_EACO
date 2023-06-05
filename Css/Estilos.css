@@ -86,14 +86,7 @@ a {
 }
 
 
-.item:not(.button) a:hover,
-.item a:hover::after {
-  color: #ddddb0;
-}
 
-.item.button {
-  padding: 9px 5px;
-}
 .item:not(.button) a:hover,
 .item a:hover::after {
   color: #e68500;
