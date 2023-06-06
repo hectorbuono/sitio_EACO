@@ -72,6 +72,9 @@ nav {
   list-style-type: none;
 }
 
+.submenu {
+  display: none;
+}
 a {
   color: #dddcaf;
   text-decoration: none;
