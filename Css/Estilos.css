@@ -130,7 +130,7 @@ a {
 }
 /* Submenu up from mobile screens */
 .submenu {
-  display: none;
+  display: block;
 }
 .submenu-active .submenu {
   display: block;
